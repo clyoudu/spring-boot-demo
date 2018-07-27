@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-boot-maven-install</module>
+        <module>spring-boot-start-with-spring-cli</module>
         <!--<module>spring-boot-maven-install2</module>-->
     </modules>
 
