@@ -10,3 +10,5 @@
 - `spring-boot-maven-install`: 通过`parent`标签配置依赖；
 - `spring-boot-maven-install2`: 通过`dependencyManagement`标签配置依赖；
 - `spring-boot-start-with-spring-cli`: 通过`Spring CLI`启动`spring-boot`项目
+- `spring-boot-scheduler`:定时任务
+- `spring-boot-redis`:redis
