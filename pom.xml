@@ -13,6 +13,7 @@
         <module>spring-boot-start-with-spring-cli</module>
         <module>spring-boot-scheduler</module>
         <module>spring-boot-redis</module>
+        <module>spring-boot-graphql</module>
         <!--<module>spring-boot-maven-install2</module>-->
     </modules>
 

@@ -1,0 +1,36 @@
+type Book {
+    id: String,
+    name: String,
+    author: String,
+    pages: Int,
+    available: Boolean,
+    price: Float
+}
+
+input BookCreate {
+    name: String!,
+    author: String!,
+    pages: Int!,
+    availabe: Boolean!,
+    price: Float!
+}
+
+input BookUpdate {
+    id: String!,
+    name: String!,
+    author: String!,
+    pages: Int!,
+    available: Boolean!,
+    price: Float!
+}
+
+type Query {
+    query(keyword: String): [Book],
+    book(id: String): Book
+}
+
+type Mutation {
+    add(book: BookCreate): Book!,
+    delete(id: String): Book,
+    update(book: BookUpdate): Book
+}
